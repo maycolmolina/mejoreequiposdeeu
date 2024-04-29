@@ -11,7 +11,7 @@ import Constants from 'expo-constants'
 const Header = () => {
     return (
         <View style={{ paddingTop:Constants.statusBarHeight}}>
-            <Text>mianalvhoqihvaodhñaivuaisdvkDvkañdivhñaioDVoia</Text>
+            <Text style={styles.title}>mejores equipos de ueropa</Text>
             <FlatList
 
                 contentContainerStyle={{
@@ -43,6 +43,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         width: '100%'
     },
+    title:{
+        fontSize:30
+    }
 });
 
 

@@ -41,13 +41,12 @@ const styles = StyleSheet.create({
     tamaimg: {
         width: 150,
         height: 150,
-        // border: 'solid red 1px',
         marginTop:5
 
     },
     Card: {
         borderWidth: 1, // Ancho del borde
-        borderColor: 'black', // Color del borde
+        borderColor: '#908765', // Color del borde
         margin: 10,
         padding: 20,
         borderRadius: 8,
@@ -55,8 +54,8 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     info: {
-        // border: 'solid red 1px',
         padding: 5
+
     }
 });
 export default Card
